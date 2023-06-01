@@ -1,0 +1,33 @@
+.image-slider {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.slider-content img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-control {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-control button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.slider-control button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
